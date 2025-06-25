@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resolução com Alert - Lista de Exercícios 2</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Está é a página para resolução com o alert</h1>
+    <p>Clique no botão abaixo para visualizar no navegador</p>
+    <button id="btnVoltar" class="btn-alert">Voltar</button>
+  </header>
+
+  <main>
+    <section class="exercise-list">
+      <button class="btn-exercise" onclick="exec01()">Exercício 01</button>
+      <button class="btn-exercise" onclick="exec02()">Exercício 02</button>
+      <button class="btn-exercise" onclick="exec03()">Exercício 03</button>
+      <button class="btn-exercise" onclick="exec04()">Exercício 04</button>
+      <button class="btn-exercise" onclick="exec05()">Exercício 05</button>
+      <button class="btn-exercise" onclick="exec06()">Exercício 06</button>
+      <button class="btn-exercise" onclick="exec07()">Exercício 07</button>
+      <button class="btn-exercise" onclick="exec08()">Exercício 08</button>
+      <button class="btn-exercise" onclick="exec09()">Exercício 09</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Desenvolvido por Gabriel Senna para +prati</p>
+  </footer>
+
+
+  <script src="js/resolucao-alert.js"></script>
+  <script>
+    document.getElementById('btnVoltar').addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
